@@ -4,8 +4,8 @@ The coronavirus took the entire world by surprise, changing everyone's daily rou
 
 You've been given a database of one of the services competing in this market. It contains data on books, publishers, authors, customer ratings and reviews of books. This information will be used to generate a value proposition for a new product.
 
-### Description of tables:
-**books:**
+### Description of tables
+**books**
 - book_id
 - author_id
 - title
@@ -13,27 +13,27 @@ You've been given a database of one of the services competing in this market. It
 - publication_date
 - publisher_id
 
-**authors:**
+**authors**
 - author_id
 - author
 
-**publishers:**
+**publishers**
 - publisher_id
 - publisher
 
-**ratings:**
+**ratings**
 - rating_id
 - book_id
 - username (the name of the user who rated the book)
 - rating
 
-**reviesw:**
+**reviews**
 - review_id
 - book_id
 - username (the name of the user who reviewed the book)
 - text
 
-### Data Diagram:
+### Data Diagram
 ![image](https://user-images.githubusercontent.com/98457852/187034472-711f5dbe-d445-4dfc-8275-a4ba83622ade.png)
 
 ## Goal
